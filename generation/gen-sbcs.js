@@ -31,7 +31,7 @@ var encodingFamilies = [
     {
         // IBM/DOS code pages http://www-01.ibm.com/software/globalization/cp/cp_cpgid.html  http://download.boulder.ibm.com/ibmdl/pub/software/dw/java/cdctables.zip
         // GCGID <-> GCUID (unicode) http://www-01.ibm.com/software/globalization/gcgid/gcgid.html
-        encodings: [037,437, 737, 775, 850, 852, 855, 856, 857, 858, 860, 861, 862, 863, 864, 865, 866, 869,
+        encodings: [1047, 037, 437, 737, 775, 850, 852, 855, 856, 857, 858, 860, 861, 862, 863, 864, 865, 866, 869,
                     922, 1046, 1124, 1125, 1129, 1133, 1161, 1162, 1163],
         convert: function(cp) {
             return {
